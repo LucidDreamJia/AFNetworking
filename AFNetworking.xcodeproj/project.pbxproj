@@ -206,6 +206,7 @@
 		E91164651DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E91164641DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m */; };
 		E91164661DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E91164641DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m */; };
 		E91164671DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E91164641DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m */; };
+		FA30321D2D646FCD00807511 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = FA30321C2D646FCD00807511 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -326,6 +327,7 @@
 		E2B10D8C233035100004E005 /* Amazon Root CA 1.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Amazon Root CA 1.cer"; sourceTree = "<group>"; };
 		E2B10D8D233035100004E005 /* Amazon.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = Amazon.cer; sourceTree = "<group>"; };
 		E91164641DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestSerializerTests.m; sourceTree = "<group>"; };
+		FA30321C2D646FCD00807511 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -515,6 +517,7 @@
 		2995223B1BBF104D00859F49 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA30321C2D646FCD00807511 /* PrivacyInfo.xcprivacy */,
 				2995223C1BBF104D00859F49 /* AFNetworking.h */,
 				2995223E1BBF104D00859F49 /* Info.plist */,
 				439E2811247E16DE004467ED /* AFNetworking.podspec */,
@@ -953,6 +956,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA30321D2D646FCD00807511 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
